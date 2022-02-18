@@ -1,0 +1,13 @@
+@use "../components/mixins" as *;
+
+.menu {
+    @include gradient;
+    .nav-item {
+        padding: 0 0.7rem;
+        .nav-link {
+            color: white;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}

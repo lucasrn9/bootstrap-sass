@@ -1,0 +1,30 @@
+@use"../custom" as *;
+@use "../components/mixins" as *;
+
+.btn-nav-contact {
+    position: relative;
+    background-color: white;
+    padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+    font-weight: 700;
+
+    &:hover {
+        @include gradient;
+        border-color: #fefe;
+        color: white;
+        .phone-icon{
+            background-color: rgba(black,0.6);
+        }
+    }
+    .phone-icon{
+    background-color: $primary;
+    position: absolute;
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
