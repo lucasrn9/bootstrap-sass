@@ -11118,6 +11118,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes pulse-border {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
 .btn-nav-contact {
   position: relative;
   background-color: white;
@@ -11145,6 +11155,37 @@ textarea.form-control-lg {
   justify-content: center;
 }
 
+.play-btn {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(50%);
+}
+
+.play-btn-border {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 0.55rem solid white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: pulse-border 1.5s linear infinite;
+}
+
+.close-btn-modal {
+  box-sizing: content-box;
+  padding: 0.25em 0.25em;
+  border: none;
+  background-color: transparent;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
@@ -11155,6 +11196,33 @@ textarea.form-control-lg {
   color: white;
   text-transform: capitalize;
   font-weight: 600;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  color: white;
+  padding-top: 10rem;
+}
+.intro-section .intro-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.intro-section .intro-description {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 1.2rem 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+
+.modal-header {
+  border: none;
+  justify-content: end;
+}
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.705);
 }
 
 /*# sourceMappingURL=style.css.map */

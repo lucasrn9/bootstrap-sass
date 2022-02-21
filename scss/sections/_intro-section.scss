@@ -1,0 +1,28 @@
+@use "../components/mixins" as *;
+
+.intro-section {
+    @include gradient;
+    color: white;
+    padding-top: 10rem;
+    .intro-title {
+        font-weight: 700;
+        margin-bottom: 1rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    .intro-description {
+    font-size: 1rem;
+    display: inline-block;
+    margin: 1.2rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    }
+}
+
+.modal-header{
+    border: none;
+    justify-content: end;
+}
+
+.modal-content{
+    background-color: rgba(0, 0, 0, 0.705);
+}

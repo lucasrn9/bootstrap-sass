@@ -28,3 +28,34 @@
     justify-content: center;
     }
 }
+
+.play-btn{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(50%) ;
+}
+
+.play-btn-border{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 0.55rem solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: pulse-border 1.5s linear infinite;
+}
+
+.close-btn-modal{
+    box-sizing: content-box;
+    padding: 0.25em 0.25em;
+    border: none;
+    background-color: transparent;
+}
