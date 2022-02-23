@@ -11142,7 +11142,8 @@ textarea.form-control-lg {
 .btn-nav-contact:hover .phone-icon {
   background-color: rgba(0, 0, 0, 0.6);
 }
-.btn-nav-contact .phone-icon {
+
+.btn-icon {
   background-color: #9926f0;
   position: absolute;
   width: 2.5rem;
@@ -11184,6 +11185,22 @@ textarea.form-control-lg {
   padding: 0.25em 0.25em;
   border: none;
   background-color: transparent;
+}
+
+.btn-marketing-learn {
+  position: relative;
+  background-color: white;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+  font-weight: 700;
+  border: 0.1rem solid #9926f0;
+}
+.btn-marketing-learn:hover {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  border-color: #fefe;
+  color: white;
+}
+.btn-marketing-learn:hover .phone-icon {
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .menu {
@@ -11309,6 +11326,28 @@ textarea.form-control-lg {
 }
 .companie-wrapper .company-img {
   height: 100%;
+}
+
+.services {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  padding: 1rem 0;
+}
+.services .services-description {
+  margin: 5rem 0 5rem 0;
+}
+.services .services-description .left {
+  border-right: 0.1rem solid gray;
+  height: 100%;
+}
+.services .services-container {
+  margin-top: 10rem;
+}
+.services .services-container .service {
+  margin-bottom: 15rem;
+}
+.services .services-container .service .service-col-content {
+  margin-top: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

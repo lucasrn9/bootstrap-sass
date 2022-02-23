@@ -15,7 +15,9 @@
             background-color: rgba(black,0.6);
         }
     }
-    .phone-icon{
+}
+
+.btn-icon{
     background-color: $primary;
     position: absolute;
     width: 2.5rem;
@@ -27,7 +29,6 @@
     align-items: center;
     justify-content: center;
     }
-}
 
 .play-btn{
     width: 5.8rem;
@@ -58,4 +59,21 @@
     padding: 0.25em 0.25em;
     border: none;
     background-color: transparent;
+}
+
+.btn-marketing-learn{
+    position: relative;
+    background-color: white;
+    padding: 0.9375rem 4.375rem 0.9375rem 1.25rem;
+    font-weight: 700;
+    border: 0.1rem solid $primary;
+
+    &:hover {
+        @include gradient;
+        border-color: #fefe;
+        color: white;
+        .phone-icon{
+            background-color: rgba(black,0.6);
+        }
+}
 }

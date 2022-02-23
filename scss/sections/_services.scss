@@ -1,0 +1,29 @@
+.services{
+font-family: 'Poppins', sans-serif;
+position: relative;
+padding: 1rem 0;
+
+.services-description{
+    margin: 5rem 0 5rem 0;
+    .left{
+        border-right: 0.1rem solid gray;
+        height: 100%;
+    }
+}
+
+.services-container{
+    margin-top: 10rem;
+    .service{
+        margin-bottom: 15rem;
+
+        .service-col-content{
+            margin-top: 5rem;
+        }
+    }
+}
+}
+
+
+
+
+
