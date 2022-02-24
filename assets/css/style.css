@@ -11296,6 +11296,11 @@ textarea.form-control-lg {
   padding: 0 0 5rem 0;
   margin-top: 4rem;
 }
+@media (max-width: 767px) {
+  .companies {
+    padding: 0;
+  }
+}
 
 .companies-decoration-line {
   background-color: #9926f0;
@@ -11336,18 +11341,43 @@ textarea.form-control-lg {
 .services .services-description {
   margin: 5rem 0 5rem 0;
 }
+@media (max-width: 962px) {
+  .services .services-description {
+    margin: 2rem 0 3rem 0;
+  }
+}
 .services .services-description .left {
   border-right: 0.1rem solid gray;
   height: 100%;
 }
+@media (max-width: 767px) {
+  .services .services-description .left {
+    border-right: none;
+  }
+}
 .services .services-container {
   margin-top: 10rem;
+}
+@media (max-width: 962px) {
+  .services .services-container {
+    margin-top: 0;
+  }
 }
 .services .services-container .service {
   margin-bottom: 15rem;
 }
+@media (max-width: 962px) {
+  .services .services-container .service {
+    margin-bottom: 5rem;
+  }
+}
 .services .services-container .service .service-col-content {
   margin-top: 5rem;
+}
+@media (max-width: 962px) {
+  .services .services-container .service .service-col-content {
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

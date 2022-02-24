@@ -5,19 +5,35 @@ padding: 1rem 0;
 
 .services-description{
     margin: 5rem 0 5rem 0;
+    @media(max-width:962px){
+        margin: 2rem 0 3rem 0;
+    }
+
     .left{
         border-right: 0.1rem solid gray;
         height: 100%;
+        @media(max-width:767px){
+            border-right: none;
+        }
     }
 }
 
 .services-container{
     margin-top: 10rem;
+    @media(max-width:962px){
+        margin-top: 0;
+    }
     .service{
         margin-bottom: 15rem;
+        @media(max-width:962px){
+            margin-bottom: 5rem;
+        }
 
         .service-col-content{
             margin-top: 5rem;
+            @media(max-width:962px){
+                margin-top: 0;
+            }
         }
     }
 }

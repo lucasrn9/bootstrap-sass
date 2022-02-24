@@ -3,6 +3,9 @@
 .companies{
     padding: 0 0 5rem 0;
     margin-top: 4rem;
+    @media(max-width:767px){
+        padding: 0;
+    }
 }
 
 .companies-decoration-line{
