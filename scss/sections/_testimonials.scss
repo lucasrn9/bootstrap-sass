@@ -1,0 +1,50 @@
+@use"../components/mixins" as *;
+@use"../custom" as *;
+
+.testimonials{
+@include gradient;
+position: relative;
+
+}
+.line-decoration{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    display: block;
+}
+
+.testimonial-box{
+    border-radius: 10px;
+    position: relative;
+    padding: 1rem 1rem 3.5rem 1rem;
+    margin-bottom: 80px;
+    .testimonial-phrase{
+
+    }
+    .testimonial-img-wrapper{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        border: 5px solid $primary;
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        transform: translateY(50%) translateX(-50%);
+    }
+}
+
+.testimonial-infos{
+    color: white;
+    .testimonial-name{
+    font-size: 2rem;
+    text-transform: capitalize;
+    }
+    }
+
+    .testimonial-phrase{
+        i{
+        font-size: 2rem;
+        color: rgba($primary,70%);
+        }
+    }
