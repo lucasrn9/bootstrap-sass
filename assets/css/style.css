@@ -4568,7 +4568,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   width: 100%;
-  padding: 1rem 1.25rem;
+  padding: 1.5rem 1.25rem;
   font-size: 1rem;
   color: #212529;
   text-align: left;
@@ -4651,7 +4651,7 @@ textarea.form-control-lg {
 }
 
 .accordion-body {
-  padding: 1rem 1.25rem;
+  padding: 1.5rem 1.25rem;
 }
 
 .accordion-flush .accordion-collapse {
@@ -11432,6 +11432,10 @@ textarea.form-control-lg {
 .testimonial-phrase i {
   font-size: 2rem;
   color: rgba(153, 38, 240, 0.7);
+}
+
+.accordion-item:not(:first-of-type) {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 /*# sourceMappingURL=style.css.map */
