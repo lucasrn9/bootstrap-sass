@@ -1,0 +1,40 @@
+@use "../custom" as *;
+
+.project-wrapper{
+    width: 100%;
+    height: 18.5rem;
+    max-width: 25rem;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+        .project-information{
+            opacity: 1;
+            visibility: visible;
+            transition-duration: 1000ms;
+            transition-property: all;
+        }
+    }
+}
+
+.project-img{
+    border-top: 0.5rem solid $primary;
+    width: 100%;
+    height: 100%;
+}
+
+.project-information{
+width: 100%;
+height: 100%;
+background-color: rgba($primary, 0.75);
+color: white;
+transform: translateY(-100%);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0;
+visibility: hidden;
+text-align: center;
+text-transform: uppercase;
+padding: 5rem;
+}
