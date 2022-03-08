@@ -11477,4 +11477,48 @@ textarea.form-control-lg {
   padding: 5rem;
 }
 
+.get-started {
+  margin-top: 6rem;
+  padding: 6rem 0;
+  background-color: #dee2e6;
+}
+
+.get-started-left {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  padding: 4rem;
+}
+.get-started-left .next-steps-title {
+  font-size: 1.8rem;
+}
+.get-started-left .next-steps-list {
+  padding-left: 0;
+}
+.get-started-left .next-steps-list li {
+  list-style: none;
+}
+.get-started-left .next-steps-list li i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.get-started-right {
+  background-color: white;
+  padding: 4rem;
+}
+.get-started-right .get-started-form .get-started-form-title {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+}
+.get-started-right .get-started-form .form-control-lg {
+  width: 100%;
+  border: 1px solid #dee2e6;
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
+}
+
 /*# sourceMappingURL=style.css.map */

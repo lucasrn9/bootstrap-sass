@@ -1,0 +1,49 @@
+@use"../custom" as *;
+@use"../components/mixins" as *;
+
+.get-started{
+    margin-top: 6rem;
+    padding: 6rem 0;
+    background-color: $gray-300;
+}
+
+.get-started-left{
+    @include gradient;
+    padding: 4rem;
+    .next-steps-title{
+        font-size: 1.8rem;
+    }
+    .next-steps-list{
+        padding-left: 0;
+        li{
+            list-style: none;
+            i{
+                font-size: 1.5rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+
+.get-started-right{
+    background-color: white;
+    padding: 4rem;
+    .get-started-form{
+        .get-started-form-title{
+            @include textClipGradient;
+            font-size: 2rem;
+        }
+        .form-control-lg{
+            width: 100%;
+            border: 1px solid $gray-300
+        }
+    }
+}
+
+.gradient{
+    @include gradient;
+}
+
+@media (max-width:422px) {
+    
+}
