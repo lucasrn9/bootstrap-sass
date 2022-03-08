@@ -11521,4 +11521,63 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95));
 }
 
+.footer {
+  background-color: #151414;
+}
+
+.footer-headings .footer-headings-icon {
+  margin-right: 1.2rem;
+  width: 4rem;
+  stroke: #9926f0;
+}
+.footer-headings .footer-headings-content {
+  color: #6c757d;
+  font-weight: 600;
+}
+@media (max-width: 576px) {
+  .footer-headings .footer-headings-icon {
+    width: 2.5rem;
+  }
+  .footer-headings .footer-headings-content-title {
+    font-size: 1rem;
+  }
+  .footer-headings .footer-headings-content-description {
+    font-size: 0.85rem;
+  }
+}
+
+.footer-socials {
+  background-color: #212121;
+}
+.footer-socials .footer-social-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer-socials .footer-social-icons i {
+  color: white;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 991px) {
+  .footer-utilities {
+    text-align: center;
+  }
+}
+.footer-utilities p {
+  color: #dee2e6;
+}
+.footer-utilities hr {
+  width: 60px;
+  height: 2px;
+  border-radius: 20px;
+  margin: 1.5rem 0;
+}
+@media (max-width: 991px) {
+  .footer-utilities hr {
+    margin: 1.5rem auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
